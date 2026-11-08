@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-blush: #F8BBD0;
+  --color-petal: #FCE4EC;
+  --color-rose: #E91E63;
+  --color-wine: #AD1457;
+  --color-cream: #FFF5F8;
+  --color-ink: #49313D;
+  --font-display: "Playfair Display", serif;
+  --font-body: "Poppins", sans-serif;
+}
+
+html, body, #root { min-height: 100dvh; }
+body {
+  background: #FFF5F8;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
